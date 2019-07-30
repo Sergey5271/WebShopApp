@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+        name="jdbc/webshop_db" type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000"
+        removeAbandoned="true" removeAbandonedTimeout="30"
+        url="jdbc:mysql://localhost:3306/webShop_db"
+        defaultTransactionIsolation="READ_COMMITTED"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        username="root" password="root"
+    />
+</Context>
